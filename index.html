@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supriyo Rudra F2 Contest 3 21-01-2023</title>
+    <link rel="icon" type="image/png" href="/images/icon.png">
+    <meta name="description" content="This project is an interactive question-answer tool that allows users to ask questions, and get answers along with images. It also includes a text-to-speech feature that verifies a token for user authentication, and displays the user's name and the number of calls remaining. It uses JavaScript, HTML and Local storage to store user data.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup-form">
+        <div class="signup-heading">
+            <h1>SignUp Form</h1>
+        </div>
+        <form action="./login.html" class="sign-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required><br>
+            <p class="validation" id="name-error"></p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+            <p class="validation" id="email-error"></p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br>
+            <p class="validation" id="password-error"></p>
+            <label for="confirm">Confirm Password:</label>
+            <input type="password" id="confirm" required><br>
+            <p class="validation" id="confirm-password-error"></p>
+            <p class="validation" id="error"></p>
+            <input type="Submit" id="button" value="Submit">
+        </form>
+        <div id="result" style="color: red;"></div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
